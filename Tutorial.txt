@@ -1,0 +1,7 @@
+1. Install XAMPP
+2. Jalankan xampp-control.exe
+3. Start Module Apache & mysql
+4. Buat Folder di dalam htdocs
+5. Extrak zip ke folder yang telah di buat
+6. Buat database & masukkan query "Tabel Disburse.sql" ke dalam database yang dibuat
+7. setting config database di folder config sesuai dengan database yang di bikin
