@@ -5,3 +5,16 @@
 5. Extrak zip ke folder yang telah di buat
 6. Buat database & masukkan query "Tabel Disburse.sql" ke dalam database yang dibuat
 7. setting config database di folder config sesuai dengan database yang di bikin
+
+
+POST 
+http://localhost/flip/models/post.php
+Content-Type : application/x-www-form-urlencoded
+Parameter :
+-bank_code
+-account_number
+-amount
+-remark
+
+Get
+http://localhost/flip/models/get.php/:id
